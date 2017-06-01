@@ -1,8 +1,5 @@
 #!/usr/bin/python
-#
-# This example was shamelessly stolen from section 4 of the Python tutorial at
-# http://www.python.org/doc/current/tut/tut.html.
-#
+
 for n in range(2, 10):
     for x in range(2, n):
         if n % x == 0:

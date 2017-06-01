@@ -1,9 +1,4 @@
-#!/usr/bin/python
-#
 # Python program to generate a random number with commentary.
-#
-
-# Import is much like Java's.  This gets the random number generator.
 import random
 
 # Generate a random integer in the range 10 to 49.
