@@ -1,17 +1,13 @@
-# My Fabulous Recipe
+# Movie Trailer Website 
+Movie trailer website project, part of the Udacity [Full Stack Web Developer Nanodegree.](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 
-This recipe for **cereal and milk** has been passed down my family for months.
+## How it works 
+A Python program that produces the HTML for a movie website that displays a movie posters. Click on a movie poster to play its trailer.
 
-## Ingredients
-- Cereal (you can find cool cereals [here](www.example.com/coolcereals))
-- Milk
+## Project Contents 
+- media.py - contains the class Movie that stores movie details
+- entertainment_center.py - main Python file to run
+- fresh_tomatoes.py - creates the HTML file for the website (Udacity)
 
-## Directions
-
-If I were writing these out as _code_, it might look something like this:
-```
-if bowl is empty:
-    add cereal
-if bowl only has cereal in it:
-    add milk
-```
+## Required Libraries
+Python 2.x is required to run this project.
