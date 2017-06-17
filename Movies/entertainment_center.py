@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+#The structure that was created in movie.py is repeated below with other films
 breakfast_tiffany = media.Movie("Breakfast at Tiffany's", "A young New York socialite becomes interested in a young man who has moved into her apartment building,but her past threatens to get in the way.",
                         "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Breakfast_at_Tiffanys.jpg/215px-Breakfast_at_Tiffanys.jpg",
                         "https://www.youtube.com/watch?v=urQVzgEO_w8")
@@ -28,5 +29,10 @@ three_steps = media.Movie("Three Steps Above Heaven", "Story of two young people
                           "https://images-na.ssl-images-amazon.com/images/M/MV5BNjQwM2Y3ODQtYjExMi00OGIwLWFhZWYtNDY0ZDM4ZTk1MzU1XkEyXkFqcGdeQXVyNjE5NTc2OTQ@._V1_UY268_CR5,0,182,268_AL_.jpg",
                           "https://www.youtube.com/watch?v=TVBIQrg0dJc")
 
+#Creates an array of the movies and calls to open already generated fresh.tomatoes.html
 movies = [breakfast_tiffany, moana, bride_wars, all_eyez, baywatch, three_steps]
 fresh_tomatoes.open_movies_page(movies)
+
+
+"""fresh.tomatoes.html is a prepared html document with ready-to-use web page design""""
+
