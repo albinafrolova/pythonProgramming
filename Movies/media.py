@@ -1,6 +1,9 @@
 import webbrowser 
 
+    """This program was made to create a web page with 6 movie posters and their trailers.""""
+    
 class Movie():
+    #class Movie creates structure for arrays in entertainment.py
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         self.title = movie_title
